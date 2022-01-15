@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+header {
+    background-color: rgb(215, 227, 243);
+}
 
 body{
     font-family: 'Nanum Gothic', sans-serif;
@@ -60,3 +63,13 @@ body{
     list-style: none;
     font-size: 0,5
 }
+
+.btn-btn-light {
+    background-color: rgb(109, 148, 192);
+    color: lightcyan;
+    font-size: 1rem;
+    border-style:double;
+    border-color: rgba(219, 211, 211, 0.151);
+    padding: 2px;
+    margin: 3px;
+
