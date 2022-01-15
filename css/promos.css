@@ -65,6 +65,7 @@ body{
 }
 
 .btn-btn-light {
+    text-align: center;
     background-color: rgb(109, 148, 192);
     color: lightcyan;
     font-size: 1rem;
@@ -72,4 +73,9 @@ body{
     border-color: rgba(219, 211, 211, 0.151);
     padding: 2px;
     margin: 3px;
+    
+}
+
+
+
 
