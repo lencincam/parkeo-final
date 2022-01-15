@@ -1,0 +1,9 @@
+body {
+    background-color: lightsteelblue;
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+
+.header__titulo {
+    display: flex;
+    justify-content: center;
+}

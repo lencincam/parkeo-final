@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgb(194, 204, 218);
+}
+.titulo1{
+    padding: 1rem;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.titulo2 {
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.estadias-contenedor{
+    text-align: center;
+    font-size: 2rem;
+    display: grid;
+    grid-template-rows: 3rem;
+}
+
+.horas{
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 3rem ;
+}
+
+.mensualidades{
+    padding: 1rem;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+        
+}
+.informacion {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2;
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 0,5
+}

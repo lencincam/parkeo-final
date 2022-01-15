@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* ---Tamaño celular --- */
+
+
+/* ---body--- */
+body{
+    font-family: 'Nanum Gothic', sans-serif;    
+}
+
+/*-------HEADER-------*/
+.header{
+    background-color: rgb(48, 93, 151)
+}
+
+/* ----- Section ---- */
+
+.section__titulo{
+    background-color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/*------NAV------*/
+.header__nav{
+    padding: 2rem;
+    list-style: none;
+    text-align: center;
+    
+}
+.header__nav li{
+    display: inline;
+    display: inline-block;
+}
+.header__nav a{
+    text-decoration: none;
+    color: rgb(216, 222, 228);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem;
+
+}
+.header__nav--logo{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.contenedorflex{
+    background-color: whitesmoke;
+    padding: 3rem;
+    margin: 0rem;
+    font-size: 0,5rem;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+   color: gray;  
+    
+}
+
+.items {
+    list-style: none;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.footer{
+    background-color: rgb(222, 228, 235);
+    text-align: center;
+    font-size: 1.2rem;
+   
+  
+}
+.footer a {
+    
+    margin: 1rem;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+}
+.footer__flex {
+    list-style: none;
+    align-items: center;
+}
