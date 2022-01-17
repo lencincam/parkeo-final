@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.body { 
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+section {
+    background-color: lightsteelblue;
+}
+.titulo1{
+    padding: 2rem;
+    margin: 0rem;
+    text-align: center;
+}
+
+.titulo2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.titulo3 {
+    text-align: center;
+}
+
+.nav-img {
+    padding: 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.img1:hover {
+    transform: scale(1.4);
+}
+
+.img2:hover:hover {
+    transform: scale(1.4);
+}
+
+.img3:hover:hover {
+    transform: scale(1.4);
+}
