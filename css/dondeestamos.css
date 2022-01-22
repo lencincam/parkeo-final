@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-.body { 
+body { 
     font-family: 'Outfit', sans-serif;
 }
 
@@ -23,6 +23,7 @@ section {
 .titulo3 {
     text-align: center;
 }
+/* ------imagenes/direcciones */
 
 .nav-img {
     padding: 3rem;
@@ -40,4 +41,18 @@ section {
 
 .img3:hover:hover {
     transform: scale(1.4);
+}/* --------------video de estacionamiento */
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.recomendaciones {
+    text-align: center;
+    font-size: 1rem ;
+    text-decoration: none;
+}
+
+.reco {
+    list-style: none;
 }
