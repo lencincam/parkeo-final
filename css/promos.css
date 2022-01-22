@@ -34,12 +34,14 @@ body{
     grid-template-rows: 3rem;
 }
 
+/* ----- HORAS */
 .horas{
     font-size: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 3rem ;
 }
+
 
 .mensualidades{
     padding: 1rem;
@@ -65,10 +67,12 @@ body{
 }
 
 .btn-btn-light {
+    flex-direction: row;
     text-align: center;
+    align-items: center;
     background-color: rgb(109, 148, 192);
     color: lightcyan;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border-style:double;
     border-color: rgba(219, 211, 211, 0.151);
     padding: 2px;
