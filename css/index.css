@@ -68,6 +68,15 @@ body{
     justify-content: center;
 }
 
+/* -------CARRUSEL */
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* -------FOOTER */
 .footer{
     background-color: rgb(222, 228, 235);
     text-align: center;
