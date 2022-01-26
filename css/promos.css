@@ -66,18 +66,13 @@ body{
     font-size: 0,5
 }
 
-.btn-btn-light {
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(109, 148, 192);
-    color: lightcyan;
-    font-size: 1.2rem;
-    border-style:double;
-    border-color: rgba(219, 211, 211, 0.151);
-    padding: 2px;
-    margin: 3px;
-    
+/* -------botones */
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: 1rem;
 }
 
 
