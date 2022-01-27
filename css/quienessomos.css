@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    
-    background-color: hsl(214, 41%, 78%);
-    font-family: 'Outfit', sans-serif;
+    background-color: rgb(204, 217, 235);
+    font-family: 'Roboto', sans-serif;
 }
 
 
