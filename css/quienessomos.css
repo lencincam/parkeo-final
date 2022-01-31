@@ -1,14 +1,27 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* GALERIA */
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 20%, 50%, 20%;
 
+}
 
+.gallery-container img {
+    width: 50%;
+    height: 100%;
+}
+
+/* 2 filas  */
 
 /* FOOTER    */
 .footer{
