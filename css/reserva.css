@@ -5,18 +5,22 @@ body {
 .header__titulo {
     text-align: center;
     padding: 2rem;
+    background-color: rgb(48, 93, 151);
+    color: white;
 }
 
 .titulo3 {
     font-size: 2rem;
 }
+
 .tips {
-    list-style: none;
     padding: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 1rem;
-    text-decoration: none;
-    
+}
+
+.listado {
+    list-style: none;
 }
