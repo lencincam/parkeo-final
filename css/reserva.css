@@ -2,11 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
     }
 
-.header__titulo {
+.animate__heartBeat {
     text-align: center;
     padding: 2rem;
     background-color: rgb(85, 132, 172);
     color: rgb(246, 242, 212);
+    font-size: 1rem;
 }
 
 .animate__animated {
@@ -15,6 +16,7 @@ body {
 
 .carousel {
     padding: 2rem;
+    background-color:  rgb(246, 242, 212);
 }
 
 /* TITULOS */
@@ -39,4 +41,19 @@ body {
     flex-direction: column;
     text-align: center;
     font-size: 1.5rem;
+}
+/* FOOTER */
+.footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(222, 228, 235);
+    text-align: center;
+    font-size: 1.2rem;
+   
+  
+}
+.footer a {
+    margin: 1rem;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
 }
