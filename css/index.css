@@ -19,7 +19,6 @@ header{
 /* ----- Section ---- */
 
 .section__titulo{
-    background-color: rgb(246, 242, 212);
     padding: 10px;
     font-size: 2rem;
     text-align: center;
@@ -41,8 +40,9 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1rem;
-    padding: 2rem;
+    font-size: 1.2rem;
+    padding: 3rem;
+    margin: 1rem;
 
 }
 .header__nav--logo{
