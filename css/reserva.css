@@ -5,8 +5,8 @@ body {
 .header__titulo {
     text-align: center;
     padding: 2rem;
-    background-color: rgb(48, 93, 151);
-    color: white;
+    background-color: rgb(85, 132, 172);
+    color: rgb(246, 242, 212);
 }
 
 .titulo3 {
