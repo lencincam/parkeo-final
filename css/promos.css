@@ -4,14 +4,15 @@
 }
 
 header {
-    background-color: rgb(215, 227, 243);
+    background-color:rgb(246, 242, 212);
 }
 
 body{
-    background-color: rgb(194, 204, 218);
     font-family: 'Roboto', sans-serif;
 }
 .titulo1{
+    background-color: rgb(85, 132, 172);
+    color: rgb(246, 242, 212);
     padding: 1rem;
     display: flex;
     font-size: 3rem;
@@ -75,6 +76,7 @@ body{
     margin: 1rem;
 }
 
-
-
-
+/* CARRUSEL */
+.carousel {
+    padding: 2rem;
+}
