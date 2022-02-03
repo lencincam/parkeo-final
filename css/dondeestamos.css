@@ -6,8 +6,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-section {
-    background-color: white;
+header {
+    background-color: rgb(246, 242, 212);
 }
 .titulo1{
 
@@ -53,14 +53,45 @@ section {
 }
 
 .recomendaciones {
+    
     text-align: center;
-    border: rgb(185, 240, 240);
     font-size: 1.5rem ;
     text-transform: uppercase;
     text-decoration-line: underline;
 }
 
+
 .reco {
+    background-color: rgb(34, 87, 126);
+    color: rgb(246, 242, 212);
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.1rem;
     list-style: none;
     text-align: center;
+
+}
+
+.reco:hover {
+    transform: scale(1.4);
+}
+
+.video {
+    padding: 2rem;
+}
+
+/* -------FOOTER */
+.footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(222, 228, 235);
+    text-align: center;
+    font-size: 1.2rem;
+   
+  
+}
+.footer a {
+    margin: 1rem;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
 }
