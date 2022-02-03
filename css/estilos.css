@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=estilos.css.map */
+section {
+  background-color: #5584ac;
+  color: #f6f2d4;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 4rem;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+div img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  margin: 1rem;
+}
+/*# sourceMappingURL=estilos.css.map */
