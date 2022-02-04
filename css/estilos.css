@@ -12,11 +12,65 @@ section h2 {
   font-size: 2rem;
 }
 
+section li {
+  text-decoration: none;
+  list-style: none;
+}
+
 div img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 2rem;
   margin: 1rem;
+}
+
+.contenedorflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #22577e;
+  color: #f6f2d4;
+}
+
+footer {
+  background-color: #f6f2d4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 2rem;
+}
+
+.carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=estilos.css.map */

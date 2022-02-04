@@ -9,6 +9,11 @@ section {
     h2 {
         font-size: 2rem;
     }
+
+    li {
+        text-decoration: none;
+        list-style: none;
+    }
 }
 
 div {
@@ -19,4 +24,36 @@ div {
         margin: 1rem;
     }
 
+}
+
+.contenedorflex {
+    display: flex;
+    flex-direction: row;
+    align-content: center;  
+    align-items: center;
+    background-color: rgb(34, 87, 126);
+    color: rgb(246, 242, 212);
+
+}
+
+footer {
+    background-color: rgb(246, 242, 212);
+    display: flex;
+    justify-content: center;
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: stretch;
+        padding: 2rem;
+    }
+
+
+}
+
+.carousel-inner { 
+    display: flex;
+    justify-content: space-evenly;
 }
