@@ -1,3 +1,22 @@
+/* MAPS */
+/* MAPS */
+.parkeo--link {
+  color: #fa6909;
+}
+
+.aplicacion--link {
+  color: #ff8e00;
+}
+
+.agiliza--link {
+  color: #ffe400;
+}
+
+.facil--link {
+  color: #d1f30e;
+}
+
+/* VARIABLE */
 section {
   background-color: #5584ac;
   color: #f6f2d4;
@@ -25,52 +44,40 @@ div img {
   margin: 1rem;
 }
 
-.contenedorflex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #22577e;
-  color: #f6f2d4;
-}
-
-footer {
-  background-color: #f6f2d4;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-footer a {
-  list-style: none;
-  text-decoration: none;
-  font-size: 1.2rem;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  padding: 2rem;
-}
-
 .carousel-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.contenedorflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #22577e;
+  color: #f6f2d4;
+  font-weight: bolder;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  background-color: #dee4eb;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+footer a {
+  margin: 1rem;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
 }
 /*# sourceMappingURL=estilos.css.map */

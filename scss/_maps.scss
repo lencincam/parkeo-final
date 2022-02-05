@@ -1,0 +1,10 @@
+/* MAPS */
+$mapOpiniones: (parkeo:rgb(250, 105, 9),aplicacion: 
+rgb(255, 142, 0),agiliza:
+rgb(255, 228, 0),facil:
+rgb(209, 243, 14));
+@each $Opiniones, $tama in $mapOpiniones {
+    .#{$Opiniones}--link {
+        color: $tama;
+    }
+}
