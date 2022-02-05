@@ -8,3 +8,14 @@ rgb(209, 243, 14));
         color: $tama;
     }
 }
+
+/* MAP GET */
+$estilo:(
+    color: rgb(93, 207, 90),
+    fuente: 50px,
+);
+
+.titulo {
+    color: map-get($estilo, color);
+    font-size: map-get($estilo, fuente);
+}

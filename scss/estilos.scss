@@ -1,5 +1,6 @@
 @import "promo";
 @import "maps" ;
+@import "extend";
 
 /* VARIABLE */
 $color-letra: rgb(246, 242, 212) ;
@@ -43,7 +44,13 @@ div img {
   background-color: #22577e;
   color: $color-letra;
   font-weight: bolder;
+
+  .titulo {
+      display: flex;
+      align-items: center;
+  }
 }
+
 
 footer {
   font-family: 'Roboto', sans-serif;
