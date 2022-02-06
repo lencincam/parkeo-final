@@ -1,10 +1,8 @@
-@import "promo";
 @import "maps" ;
 @import "extend";
-
+@import "mixin";
 /* VARIABLE */
 $color-letra: rgb(246, 242, 212) ;
-
 
 section {
   background-color: #5584ac;
@@ -25,14 +23,11 @@ section li {
   list-style: none;
 }
 
-  
-div img {
-  display: flex;
-  padding: 2rem;
-  margin: 1rem;
+main {
+  background-color: rgb(246, 242, 212);
 }
 
-  
+
 .carousel-inner {
   display: flex;
   justify-content: space-evenly;

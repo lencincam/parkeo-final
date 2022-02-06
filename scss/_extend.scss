@@ -1,1 +1,18 @@
 /* EXTEND */
+
+.item {
+    background-color: rgb(246, 242, 212);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem
+}
+
+.item2 {
+    @extend .item ;
+    font-size: 2rem;
+}
+
+.item3 {
+    @extend .item ;
+}

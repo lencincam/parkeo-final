@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,UAAU",
-    "sources": [
-        "../scss/promo.scss"
-    ],
-    "names": [],
-    "file": "promo.css"
-}

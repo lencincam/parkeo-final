@@ -1,5 +1,4 @@
 /* MAPS */
-/* MAPS */
 .parkeo--link {
   color: #fa6909;
 }
@@ -23,6 +22,19 @@
 }
 
 /* EXTEND */
+.item, .item2, .item3 {
+  background-color: #f6f2d4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem;
+}
+
+.item2 {
+  font-size: 2rem;
+}
+
+/* MIXIN */
 /* VARIABLE */
 section {
   background-color: #5584ac;
@@ -43,12 +55,8 @@ section li {
   list-style: none;
 }
 
-div img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2rem;
-  margin: 1rem;
+main {
+  background-color: #f6f2d4;
 }
 
 .carousel-inner {
