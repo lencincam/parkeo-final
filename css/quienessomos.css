@@ -31,6 +31,14 @@
 
 }
 
+.promo { 
+    background-color: rgb(233, 227, 186);
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(130, 201, 195);
+    font-size: 6rem;
+    text-align: center;
+}
+
 
 /* FOOTER    */
 .footer{
