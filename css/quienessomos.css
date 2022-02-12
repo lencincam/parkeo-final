@@ -4,24 +4,33 @@
     box-sizing: border-box;
 }
 
-body {
+
+.header-principal {
+    background-color: rgb(34, 87, 126);
+    color: rgb(233, 227, 186);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.principal1 {
+    font-size: 4rem;
+}
+
+.tarjetas {
+    background-color: rgb(233, 227, 186);
+    color: black;
     font-family: 'Roboto', sans-serif;
-}
-
-/* GALERIA */
-.gallery-container {
+    text-align: center;
+    font-size: 1.2rem;
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 20%, 50%, 20%;
+    padding: 2rem;
+   grid-template-columns: 30% 30% 30%;
+   grid-template-rows: 40% 45% 40%;
+   gap: 4rem;
+   justify-items: center;
 
 }
 
-.gallery-container img {
-    width: 50%;
-    height: 100%;
-}
-
-/* 2 filas  */
 
 /* FOOTER    */
 .footer{

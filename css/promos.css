@@ -4,24 +4,28 @@
 }
 
 header {
-    background-color:rgb(246, 242, 212);
+    background-image: url(../img/fondopromo.png);
+    background-repeat: no-repeat;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 .titulo1{
-    background-color: rgb(85, 132, 172);
-    color: rgb(246, 242, 212);
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(34, 87, 126);
+    color: rgb(233, 227, 186);
     padding: 1rem;
     display: flex;
-    font-size: 3rem;
+    font-size: 4rem;
     justify-content: center;
     text-align: center;
     
 }
 
 .titulo2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(233, 227, 186);
     padding: 1rem;
     display: flex;
     text-align: center;
@@ -44,38 +48,28 @@ body{
 }
 
 
-.mensualidades{
-    padding: 1rem;
-    display: flex;
-    font-size: 2rem;
-    justify-content: center;
-        
-}
-.informacion {
-    display: flex;
-    justify-content: center;
+.titulo3 {
+    background-color: rgb(246, 242, 212);
+    color: rgb(149, 209, 204);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem ;
+    padding: 4rem;
+    text-align: center;
     text-decoration: none;
     list-style: none;
-    font-size: 1.2;
-}
-
-.titulo2 {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    list-style: none;
-    font-size: 0,5
 }
 
 /* TARJETAS */
 .card {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
     background-color: rgb(85, 132, 172);
     text-align: center;
     margin: 5rem;
 }
 .card-body {
     background-color: rgb(34, 87, 126);
-    color: rgb(246, 242, 212);
+    color: rgb(233, 227, 186);
 }
 
 .card-body:hover {
