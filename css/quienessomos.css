@@ -3,53 +3,51 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
+/* ----MOVIL FIRST---- */
 .header-principal {
     background-color: rgb(34, 87, 126);
     color: rgb(233, 227, 186);
     font-family: 'Bebas Neue', cursive;
     text-align: center;
 }
-
 .principal1 {
     font-size: 4rem;
 }
-
-.tarjetas {
-    background-color: rgb(233, 227, 186);
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 1.2rem;
-    display: grid;
-    padding: 2rem;
-   grid-template-columns: 30% 30% 30%;
-   grid-template-rows: 40% 45% 40%;
-   gap: 4rem;
-   justify-items: center;
-
+.titulo-secundario {
+    display: none;
 }
-
-.promo { 
+.agregado-movil {
     background-color: rgb(233, 227, 186);
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive ;
     color: rgb(130, 201, 195);
-    font-size: 6rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.listas {
+    list-style: none;
+}
+.tarjetas {
+    display: none;
+}
+.animate__animated {
+    display: none;
+}
+.promo { 
+    background-color: rgb(34, 87, 126);
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(233, 227, 186);
+    font-size: 5rem;
     text-align: center;
 }
-
 
 /* FOOTER    */
 .footer{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(222, 228, 235);
     text-align: center;
-    font-size: 1.2rem;
-   
-  
+    font-size: 1.2rem; 
 }
-
 .footer a {
     margin: 1rem;
     text-decoration: none;
@@ -57,7 +55,64 @@
     list-style: none;
 }
 
+/* ---- TABLETS ---- */
+@media(min-width: 768px) {
+    .header-principal {
+        background-color: rgb(34, 87, 126);
+        color: rgb(233, 227, 186);
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+    }
+    .principal1 {
+        font-size: 4rem;
+    }
 
+    .titulo-secundario {
+        display: inline;
+    }
+    .agregado-movil {
+        display: none;
+    }
+
+    .tarjetas {
+        background-color: rgb(233, 227, 186);
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 1.2rem;
+        display: grid;
+        padding: 2rem;
+       grid-template-columns: 30% 30% 30%;
+       grid-template-rows: 40% 45% 40%;
+       gap: 4rem;
+       justify-items: center;
+    }
+    .animate__animated {
+        display: block;
+    }
+    .promo { 
+        background-color: rgb(233, 227, 186);
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(130, 201, 195);
+        font-size: 6rem;
+        text-align: center;
+    }
+    
+    /* FOOTER    */
+    .footer{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(222, 228, 235);
+        text-align: center;
+        font-size: 1.2rem; 
+    }
+    .footer a {
+        margin: 1rem;
+        text-decoration: none;
+        justify-content:center;
+        list-style: none;
+    }
+
+}
 
 
 

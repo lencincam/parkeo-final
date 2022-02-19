@@ -1,11 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     }
-
+/* ----MOVIL FIRST---- */
 header {
     background-color: rgb(233, 227, 186) ;
 }
-
 .titulo1 {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
@@ -13,51 +12,54 @@ header {
     background-color: rgb(34, 87, 126);
     color: rgb(233, 227, 186);
     font-size: 4rem;
-
 }
-
 .animate__animated {
     font-family: 'Bebas Neue', cursive;
     color: rgb(149, 209, 204);
-    font-size: 5rem;
+    font-size: 4rem;
 }
-
 .carousel {
+    display: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     padding: 2rem;
     background-color:  rgb(233, 227, 186);
 }
-
 /* TITULOS */
 
 .tips {
     background-color:  rgb(233, 227, 186);
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
     padding: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 1.5rem;
 }
-
 .listado {
+    font-family: 'Bebas Neue', cursive;
+    background-color:  rgb(34, 87, 126);
+    color: rgb(233, 227, 186);
     list-style: none;
-    padding: 1rem;
-}
-
-.titulo2 {
-    background-color:  rgb(233, 227, 186);
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
     padding: 2rem;
+}
+.titulo2 {
+    font-family: 'Bebas Neue', cursive;
+    background-color:  rgb(34, 87, 126);
+    color: rgb(233, 227, 186);
+    padding: 2rem;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 1.5rem;
 }
-
+.listado1 {
+    display: none;
+}
+.titulo3 {
+    display: none;
+}
 
 /* FOOTER */
 .footer{
@@ -65,12 +67,74 @@ header {
     background-color: rgb(222, 228, 235);
     text-align: center;
     font-size: 1.2rem;
-   
-  
 }
 .footer a {
     margin: 1rem;
     text-decoration: none;
     align-items: center;
     list-style: none;
+}
+
+/* ---- TABLETS ---- */
+
+@media(min-width: 768px) {
+    header {
+        background-color: rgb(233, 227, 186) ;
+    }
+    .titulo1 {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        padding: 2rem;
+        background-color: rgb(34, 87, 126);
+        color: rgb(233, 227, 186);
+        font-size: 4rem;
+    }
+    .animate__animated {
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(149, 209, 204);
+        font-size: 5rem;
+    }
+    .carousel {
+        display: inline-block;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2rem;
+        padding: 2rem;
+        background-color:  rgb(233, 227, 186);
+    }
+    
+    .listado {
+        font-family: 'Bebas Neue', cursive;
+        background-color: rgb(34, 87, 126);
+        color: rgb(233, 227, 186);
+        border-style:double;
+        list-style: none;
+        padding: 3rem;
+        margin: 2rem;
+    }
+    .titulo2 {
+        font-family: 'Bebas Neue', cursive;
+        background-color:   rgb(233, 227, 186);
+        color: red;
+        padding: 1rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* FOOTER */
+    .footer{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(222, 228, 235);
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .footer a {
+        margin: 1rem;
+        text-decoration: none;
+        align-items: center;
+        list-style: none;
+    }
+    
 }
