@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.registro {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(85, 132, 172);
+}
+
+
+.registro h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.opciones {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+ 
+}
+
+.boton {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: rgb(34, 87, 126);
+    font-size: 1rem;
+    
+}

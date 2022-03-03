@@ -35,6 +35,7 @@ header {
 }
 /* ------imagenes/direcciones */
 .nav-img {
+    gap: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
