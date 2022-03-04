@@ -5,7 +5,7 @@
 
 /* ---- MOVIL FIRST ---- */
 header {
-   background-image: url(../img/donde1.png);
+   background-image: url(../img/donde1.jpg);
    background-repeat: no-repeat;
    width: 100%;
    height: auto;
@@ -44,12 +44,15 @@ header {
 }
 .img1:hover {
     transform: scale(1.4);
+    transition-duration: 3s;
 }
 .img2:hover:hover {
     transform: scale(1.4);
+    transition-duration: 3s;
 }
 .img3:hover:hover {
     transform: scale(1.4);
+    transition-duration: 3s;
 }/* ----- video de estacionamiento ------- */
 .video {
     display: flex;
@@ -101,7 +104,7 @@ section {
 @media(min-width: 768px) {
 
     header {
-        background-image: url(../img/donde1.png);
+        background-image: url(../img/donde1.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: auto;
@@ -200,7 +203,7 @@ section {
 /* ---- PANTALLAS NORMALES ---- */
 @media(min-width: 992px) {
     header {
-        background-image: url(../img/donde1.png);
+        background-image: url(../img/donde1.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: auto;
